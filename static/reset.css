@@ -1,0 +1,96 @@
+[v-cloak] {
+  display: none !important;
+}
+/* 清除默认样式 */
+body,h1,h2,h3,h4,h5,h6,p,ol,ul,dl,dt,dd,input,textarea{
+    padding:0;
+    margin:0;
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight:normal;
+}
+li{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+    color:#666;
+}
+img{
+    vertical-align:top;
+    border:none;
+}
+div,input,textarea{
+    border:none;
+    outline:none;
+    background:none;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+textarea{
+    resize:none;
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-size:0.12rem;
+}
+.w{
+    width:7.2rem;
+    margin:0 auto;
+}
+.clearfix:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+i{
+  font-style: normal;
+}
+/* 以下是字体和css公共设置 */
+html {
+  font-family: "PingFangSC-Medium", "Helvetica Neue", "Helvetica", "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(245, 245, 245, 1);
+  position: relative;
+}
+.swiper-pagination-bullet {
+  width: 70px;
+  height: 5px;
+  border-radius: 0;
+}
+#entry {
+  width: 100%;
+  height: 100%;
+  z-index: 200;
+  position: relative;
+}
+#entryAdv {
+  display: none;
+}
+#entryTim {
+  position: fixed;
+  width: 2.2rem;
+  line-height: 0.68rem;
+  font-size: 0.32rem;
+  z-index: 400;
+  text-align: center;
+  border-radius: 2rem;
+  top: 0.5rem;
+  right: 0.5rem;
+  border: 1px solid #ccc;
+}
